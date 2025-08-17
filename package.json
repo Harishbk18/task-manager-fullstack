@@ -10,10 +10,12 @@
         "start:frontend": "cd frontend && npm start",
         "start:simple": "concurrently \"npm run start:simple:backend\" \"npm run start:frontend\"",
         "start:simple:backend": "cd backend && node server-simple.js",
+        "start:render": "cd backend && node server-simple.js",
         "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
         "dev:backend": "cd backend && npm run dev",
         "dev:frontend": "cd frontend && npm run dev",
-        "build": "echo 'Frontend is static HTML, no build step needed'"
+        "build": "echo 'Frontend is static HTML, no build step needed'",
+        "deploy:render": "echo 'Deploy to Render: https://render.com'"
     },
     "keywords": [
         "fullstack",
