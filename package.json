@@ -1,0 +1,32 @@
+{
+    "name": "task-manager-fullstack",
+    "version": "1.0.0",
+    "description": "Full-stack Task Manager Application with separated frontend and backend",
+    "main": "index.js",
+    "scripts": {
+        "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+        "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+        "start:backend": "cd backend && npm start",
+        "start:frontend": "cd frontend && npm start",
+        "start:simple": "concurrently \"npm run start:simple:backend\" \"npm run start:frontend\"",
+        "start:simple:backend": "cd backend && node server-simple.js",
+        "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+        "dev:backend": "cd backend && npm run dev",
+        "dev:frontend": "cd frontend && npm run dev",
+        "build": "echo 'Frontend is static HTML, no build step needed'"
+    },
+    "keywords": [
+        "fullstack",
+        "task-manager",
+        "nodejs",
+        "express",
+        "mongodb",
+        "frontend",
+        "backend"
+    ],
+    "author": "DevTown Bootcamp Student",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

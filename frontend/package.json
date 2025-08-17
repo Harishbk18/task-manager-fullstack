@@ -1,0 +1,24 @@
+{
+    "name": "task-manager-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for Task Manager Application",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx http-server public -p 3001 -c-1",
+        "dev": "npx http-server public -p 3001 -c-1 --cors",
+        "build": "echo 'Frontend is static HTML, no build step needed'",
+        "test": "echo 'Frontend tests can be run in browser'"
+    },
+    "keywords": [
+        "frontend",
+        "html",
+        "css",
+        "javascript",
+        "task-manager"
+    ],
+    "author": "DevTown Bootcamp Student",
+    "license": "MIT",
+    "devDependencies": {
+        "http-server": "^14.1.1"
+    }
+}
