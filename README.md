@@ -2,6 +2,27 @@
 
 A complete Task Manager application with separated frontend and backend architecture, now running with an in-memory database for easy testing.
 
+## 🌐 **Live Deployment Links**
+
+- **🌍 Live Website**: [Coming Soon - Deploy to get live link]
+- **🔗 GitHub Repository**: [https://github.com/Harishbk18/task-manager-fullstack](https://github.com/Harishbk18/task-manager-fullstack)
+- **📱 Demo**: [Deploy to see live demo]
+
+## 🚀 **Quick Deploy to Get Live Link**
+
+### **Deploy to Render (Free)**
+1. **Visit**: [render.com](https://render.com)
+2. **Sign up** with your GitHub account
+3. **Click "New +" → "Web Service"**
+4. **Connect** your GitHub repository: `Harishbk18/task-manager-fullstack`
+5. **Deploy** and get your live URL!
+
+### **Deploy to Netlify (Free)**
+1. **Visit**: [netlify.com](https://netlify.com)
+2. **Sign up** with GitHub
+3. **Import** your repository
+4. **Deploy** frontend instantly
+
 ## 🏗️ Project Structure
 
 ```
@@ -14,11 +35,9 @@ task-manager-fullstack/
 ├── backend/                  # Backend API server
 │   ├── server-simple.js     # Simple server (in-memory database)
 │   ├── server.js            # Full server with MongoDB (optional)
+│   ├── routes/              # API endpoints
 │   ├── models/              # Database models
-│   ├── routes/              # API route handlers
-│   ├── middleware/          # Custom middleware
-│   ├── package.json         # Backend dependencies
-│   └── env.local            # Environment configuration
+│   └── middleware/          # Authentication & validation
 ├── package.json             # Root package.json for managing both
 ├── RUNNING_INSTRUCTIONS.md  # Detailed running instructions
 └── README.md                # This file
@@ -125,6 +144,18 @@ npm run dev:frontend     # Development mode
 - Use browser developer tools (F12) for debugging
 - Check console logs for detailed information
 - Test connection using the "Test Connection" button
+
+## 🚀 Deployment
+
+### Get Your Live Link
+1. **Deploy to Render**: [render.com](https://render.com) (Free)
+2. **Deploy to Netlify**: [netlify.com](https://netlify.com) (Free)
+3. **Deploy to Vercel**: [vercel.com](https://vercel.com) (Free)
+
+### After Deployment
+- Update this README with your live URLs
+- Share your live Task Manager with others!
+- Your app will be accessible from anywhere in the world
 
 ## 🔍 Troubleshooting
 
